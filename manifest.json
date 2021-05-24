@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "EditOn01",
+    "description": "This extension tracks your overall spendings.",
+    "version": "1.0",
+    "icons": {
+      "128": "ICON12801.png",
+      "48": "ICON4801.png",
+      "16": "ICON1601.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "ICON1601.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+            "storage"
+          ]
+  }
